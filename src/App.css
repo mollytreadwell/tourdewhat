@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  background-image: url("cloud.jpg");
+}
+
+.gifImg {
+  width: 500px;
+  height: auto;
+  padding: 50px;
+}
