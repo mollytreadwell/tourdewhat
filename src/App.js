@@ -18,7 +18,16 @@ export default function App() {
     counter = (counter+1) % gif.length;
   }
 
+    const pixelate = () => {
+      if(document.getElementById("carousel-gif")) {
+        document.getElementById("carousel-gif").style.border = '5px solid black';
+      }
+      clearInterval(pixelate, 2000);
+}
+
   setInterval(setImage, 3000);
+  setInterval(pixelate, 1500);
+  clearInterval(pixelate, 2000);
 
 return (<>
   <div className='App'>
